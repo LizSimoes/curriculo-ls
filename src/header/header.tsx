@@ -4,6 +4,7 @@ import telefone from "../assets/telefone.png"
 import localização from "../assets/localização.png"
 import "../header/responsive.css"
 import "../header/header.css"
+import music from "../assets/music.mp3"
 export default function Header() {
     return (
         <div className="header">
@@ -17,7 +18,7 @@ export default function Header() {
                         <h4><img src={localização} alt="" />Alagoinhas-Ba</h4>
                     </div>
                     <div className="audio">
-                        <audio src="music.mp3" controls autoPlay></audio>
+                        <audio src={music} controls autoPlay></audio>
                     </div>
                 </div>
             </div>
