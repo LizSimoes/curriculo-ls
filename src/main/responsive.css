@@ -1,0 +1,102 @@
+@media(max-width:735px) {
+    .education h3 {
+        max-width: 300px;
+    }
+}
+
+@media(max-width:690px) {
+    .componentstwo {
+        margin-left: 90px;
+    }
+}
+
+@media(max-width:570px) {
+    .aboutme p {
+        font-size: 15px;
+        max-width: 350px;
+    }
+
+    .aboutme h1 {
+        font-size: 30px;
+    }
+
+    .education h1 {
+        font-size: 30px;
+    }
+
+    .languages h1 {
+        font-size: 30px;
+    }
+
+    .skills h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:480px) {
+    .componentstwo {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:425px) {
+    .aboutme p {
+        max-width: 300px;
+    }
+}
+
+@media(max-width:395px) {
+    .componentstwo {
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:375px) {
+    .education h2 {
+        max-width: 200px;
+    }
+
+    .education p {
+        max-width: 200px;
+    }
+}
+
+@media(max-width:350px) {
+    .componentstwo {
+        margin-left: 20px;
+    }
+
+    .aboutme p {
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width:320px) {
+    .aboutme p {
+        max-width: 250px;
+    }
+
+    .education h2 {
+        font-size: 14px;
+    }
+
+    .education h3 {
+        font-size: 14px;
+        max-width: 200px;
+    }
+
+    .education p {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .skills p {
+        font-size: 13px;
+    }
+
+    .languages p {
+        font-size: 13px;
+    }
+}
